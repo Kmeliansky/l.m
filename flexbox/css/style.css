@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container-1{
+    justify-content: space-between;
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.flex-container-1 > .item{
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    width: 62px;
+    margin: 10px;
+}
+
+.descricao{
+    width: 300px;
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.flex-container-2{
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: column;
+}
+
+.flex-container-2 > .item{
+    font-size: 20px;
+    background-color: gainsboro;
+    margin: 10px;
+    width: 72px;
+    padding: 10px;
+}
+
+.flex-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cornflowerblue;
+    
+}
+
+.flex-container-3 > .item{
+    width: 100px;
+    background-color: aquamarine;
+    margin: 50px;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.flex-container-4{
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+}
+
+.flex-container-4 > .item{
+    width: 100px;
+    background-color: aquamarine;
+    margin: 50px;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+.flex-container-5{
+    display: flex;
+    align-items:flex-end;
+    background-color: rgb(36, 78, 80);
+}
+
+.flex-container-5 > .item{
+   height: 200px; 
+   width: 300px;
+   background-color: rgb(128, 38, 123); 
+   margin: 20px;
+   align-items: flex-end;
+}
+
+.flex-container-6{
+   background-color: aqua;
+   display: flex;
+   height: 100px;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   text-align: center;
+}
+.flex-container-6 > .item{
+    background-color: darkgreen;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 32px;
+}

@@ -1,0 +1,78 @@
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(100, 100, 100);
+    
+}
+.grid-container > div{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+body{
+    background-color: black;
+}
+.item1{
+    grid-column: 1/4;
+    background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+} 
+.item2{
+    color: white;
+    background-image: url(https://s2.glbimg.com/vbdY0F13IRFDLAkgyNPqVqwt5ao=/e.glbimg.com/og/ed/f/original/2021/03/21/saturno_hubble.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.item3{
+    color: white;
+    background-image: url(https://hypescience.com/wp-content/uploads/2015/10/plutao-novas-imagens-2.png);
+    background-size: cover;
+}
+.item4{
+    color: white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f2/Ganymede_g1_true-edit1.jpg);
+    background-size: cover;
+}
+.item5{
+    color: white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/280px-OSIRIS_Mars_true_color.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.item6{
+    color: white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg);
+    background-size: cover;
+}
+.item7{
+    color: white;
+    background-image: url(https://www.iquilibrio.com/blog/wp-content/uploads/2017/02/venus-na-astrologia.jpg);
+    background-size: cover;
+}
+
+.item8{
+    color: white;
+    background-image: url(https://s2.glbimg.com/DmoxO-xhlYaaFzF12Tef0jcjCyo=/e.glbimg.com/og/ed/f/original/2014/03/14/europalua.jpg );
+    background-size: cover;
+    height: 300px;
+}
+.item9{
+    color: white;
+    background-image: url(https://socientifica.com.br/wp-content/uploads/2019/11/Tit%C3%A3-1-1-scaled.jpg);
+    background-size: cover;
+}
+.item10{
+    color: white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/280px-FullMoon2010.jpg);
+    background-size: cover;
+}
