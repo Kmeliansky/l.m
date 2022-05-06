@@ -1,0 +1,27 @@
+body{
+      background: rgb(0,0,0);
+      background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,53,55,1) 51%, rgba(127,129,129,1) 100%);
+}
+.container{
+      margin-top: 200px;
+      text-align: center;
+}
+h1{    
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: blue;
+}
+h2{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-transform: uppercase;
+      color: crimson;
+}
+p{ 
+    text-align:center;
+    width:300px;
+    background: rgb(84,125,166);
+    background: linear-gradient(90deg, rgba(84,125,166,1) 86%, rgba(152,142,205,1) 100%);
+    
+  
+}

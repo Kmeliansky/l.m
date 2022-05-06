@@ -1,0 +1,31 @@
+body{
+
+background: rgb(0,26,255);
+background: linear-gradient(90deg, rgba(0,26,255,1) 0%, rgba(172,169,219,1) 50%);   
+}
+.container{
+      margin-top: 200px;
+      text-align: center;
+}
+h1{    
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: white;
+}
+h2{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-transform: uppercase;
+      color: white;
+}
+p{ 
+    text-align:center;
+    width:300px;
+    background: rgb(84,125,166);
+    background: linear-gradient(90deg, rgba(84,125,166,1) 86%, rgba(152,142,205,1) 100%);
+    
+  
+}
+img{
+border-radius:20px;
+}
